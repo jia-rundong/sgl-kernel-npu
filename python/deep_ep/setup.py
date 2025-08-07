@@ -35,3 +35,4 @@ setuptools.setup(
     package_data={"deep_ep": ["deep_ep_cpp.cpython*.so", "vendors", "vendors/**"]},
     distclass=BinaryDistribution
 )
+
