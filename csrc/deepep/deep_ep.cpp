@@ -235,6 +235,7 @@ std::tuple<at::Tensor, std::optional<EventHandle>, std::optional<std::function<v
         HCCL_CHECK(HcclGetCommName(ep_comm, hcom_ep_name));
     }
 
+
     auto device = x.device();
     at::Tensor expand_x = x;
     at::Tensor expert_ids = new_idx;
